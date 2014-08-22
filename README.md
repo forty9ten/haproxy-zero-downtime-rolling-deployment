@@ -28,7 +28,7 @@ docker run -p :9000:9000 --privileged  -i -t multi-be-haproxy /bin/bash
 # Start HAProxy and backend apps
 
 ```
-./app/run.sh
+./run.sh # pwd /app
 ```
 
 The application runs inside tmux.  Use the following command to connect to it.

@@ -1,5 +1,6 @@
 FROM ubuntu
 
+ENV TERM linux
 RUN apt-get update -y
 RUN apt-get install haproxy golang tmux curl git iptables -y
 
